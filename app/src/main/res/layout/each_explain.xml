@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/correct_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正确答案:"
+        android:textSize="28sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="explain"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>

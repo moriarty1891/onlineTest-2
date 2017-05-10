@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="用户名: "
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/show_username"
+                android:layout_height="wrap_content"
+                android:hint="test"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="   密 码: "
+                android:textSize="20sp"/>
+            <EditText
+                android:id="@+id/show_password"
+                android:layout_height="wrap_content"
+                android:hint="new password"
+                android:inputType="textPassword"/>
+            <Button android:id="@+id/update_password"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

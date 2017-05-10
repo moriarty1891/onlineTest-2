@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/func1"
+            android:drawableTop="@drawable/user"
+            style="@style/tab_menu"
+            android:text="我的" />
+        <RadioButton
+            android:id="@+id/func2"
+            style="@style/tab_menu"
+            android:text="咨询"
+            android:drawableTop="@drawable/chat" />
+        <RadioButton
+            style="@style/tab_menu"
+            android:id="@+id/func3"
+            android:text="试卷"
+            android:drawableTop="@drawable/exam" />
+        <RadioButton
+            android:id="@+id/func4"
+            android:drawableTop="@drawable/book"
+            android:text="书籍"
+            style="@style/tab_menu" />
+        <RadioButton
+            android:id="@+id/func5"
+            android:drawableTop="@drawable/message"
+            android:text="消息"
+            style="@style/tab_menu" />
+
+    </RadioGroup>
+</LinearLayout>

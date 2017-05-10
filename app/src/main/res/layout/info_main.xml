@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/titlebar"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/my_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的信息"
+        android:textSize="25sp"
+        android:background="@color/aliceblue"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:id="@+id/my_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="答题记录"
+        android:textSize="25sp"
+        android:background="@color/aliceblue"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical|left"
+        android:paddingLeft="20dp"/>
+    <Button
+        android:id="@+id/loginout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="退出登陆"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/button_radius"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+        <TextView
+            android:layout_marginTop="130dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="十八公务员版权声明"
+            android:gravity="center"
+            android:textColor="@color/blue"/>
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2012-2017 十八 All Right Reserved"/>
+    </LinearLayout>
+    <com.example.niyali.onlinetest.uselayout.TitleLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    </com.example.niyali.onlinetest.uselayout.TitleLayout>
+
+</LinearLayout>
